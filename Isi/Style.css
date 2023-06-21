@@ -1,0 +1,136 @@
+*, 
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color:black;
+}
+
+.navbar-container {
+  background-color: grey;
+  width: 100%;
+  height: 5vh
+}
+
+.navbar-ul {
+  background-color: grey;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-li {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 17px;
+}
+
+.content-container {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.content-img {
+  width: 60%;
+  height: 40%;
+}
+
+.footer-container {
+  background-color: crimson;
+  height: 7vh;
+}
+.footer-h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vh;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-li:hover {
+  background-color: tomato;
+  transition: 0.2s ease-in-out;
+  transition-delay: .2s;
+  border-radius: 9px;
+}
+
+.content-text {
+  color: white;
+  font-size: 10px;
+  display: flex;
+  flex-direction: coloumn;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 80px;
+}
+
+<!about>
+
+.about-container {
+  background-clip: black;
+}
+.h1-about {
+  color: lightgrey;
+  font-size: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-about {
+  color: white;
+  font-size: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gamedata-table {
+  border: 1px Solid;
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  height: 10vh;
+}
+table {
+  border: 1px solid;
+}
+th {
+  border: 1px solid;
+}
+td {
+  border: 1px solid;
+}
+
+.ig {
+  width: 20%;
+  height: 20%;
+}
+.wa {
+  width: 20%;
+  height: 20%;
+}
+.fb {
+  width: 20%;
+  height: 20%;
+}
+.contactlink {
+    display: flex;
+  justify-content: left;
+  align-items: left;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
