@@ -69,7 +69,7 @@ body {
 
 .content-text {
   color: white;
-  font-size: 10px;
+  font-size: 25px;
   display: flex;
   flex-direction: coloumn;
   justify-content: space-evenly;
